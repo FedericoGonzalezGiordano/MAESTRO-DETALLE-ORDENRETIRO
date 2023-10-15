@@ -25,5 +25,21 @@ namespace ModeloParcialApp
             FrmOrdenRegistro frmOrdenRegistro = new FrmOrdenRegistro();
             frmOrdenRegistro.ShowDialog();
         }
+
+        private void stockToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmReporteStock frm=new FrmReporteStock();
+            frm.ShowDialog();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void reporteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
